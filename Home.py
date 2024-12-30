@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.logo("/workspaces/multi-disease-prediction-model/ml.png",size="large")
+st.logo("ml.png",size="large")
 st.title("Multi-Disease Prediction Model ")
 st.header("Get your results predicted 👨🏻‍🔬🔬🧬🧫🧪",divider = "blue")
 st.write(
@@ -18,10 +18,10 @@ st.write("""
 
 
 
-st.page_link("/workspaces/multi-disease-prediction-model/Home.py",label="Home",icon="🏠")
-st.page_link("/workspaces/multi-disease-prediction-model/pages/1_Parkinson's_Disease.py", label="Parkinson's Disease Lab",icon="🌷")
-st.page_link("/workspaces/multi-disease-prediction-model/pages/2_Liver_Lab.py",label = "Liver Disease Lab",icon="🎗")
-st.page_link("/workspaces/multi-disease-prediction-model/pages/3_Kidney_Lab.py",label ="Kidney Disease Lab", icon="🫘")
+st.page_link("Home.py",label="Home",icon="🏠")
+st.page_link("pages/1_Parkinson's_Disease.py", label="Parkinson's Disease Lab",icon="🌷")
+st.page_link("pages/2_Liver_Lab.py",label = "Liver Disease Lab",icon="🎗")
+st.page_link("pages/3_Kidney_Lab.py",label ="Kidney Disease Lab", icon="🫘")
 
 
 
