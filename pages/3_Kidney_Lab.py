@@ -7,7 +7,7 @@ st.divider()
 
 st.markdown("***Please Enter the values below***")
 
-model = pickle.load(open("/workspaces/multi-disease-prediction-model/kidney.pkl",'rb'))
+model = pickle.load(open("kidney.pkl",'rb'))
 
 def kid(tests):
     ip = np.array(tests).reshape(1,-1)
