@@ -6,7 +6,7 @@ st.title("Parkinson's Disease Lab 🌷")
 st.divider()
 st.markdown("***Kindly input the fields below***")
 
-model = pickle.load(open("/workspaces/multi-disease-prediction-model/Randompark.pkl",'rb'))
+model = pickle.load(open("Randompark.pkl",'rb'))
 
 def park(tests):
     inp = np.array(tests).reshape(1,-1)
