@@ -8,7 +8,7 @@ st.title("Liver Lab 🎗")
 st.divider()
 st.markdown("***Please Enter the values below***")
 
-model = pickle.load(open("/workspaces/multi-disease-prediction-model/XGBliver.pkl",'rb'))
+model = pickle.load(open("XGBliver.pkl",'rb'))
 
 def liv(tests):
     ip = np.array(tests).reshape(1,-1)
